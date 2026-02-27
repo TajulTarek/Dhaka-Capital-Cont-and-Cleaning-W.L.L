@@ -28,12 +28,12 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     category: "MEP",
   },
   {
-    src: "https://images.unsplash.com/photo-1635414773069-09a8bbd21dde?w=800&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&auto=format&fit=crop",
     alt: "Gypsum false ceiling with recessed lighting",
     category: "Gypsum",
   },
   {
-    src: "https://images.unsplash.com/photo-1591030617719-ce46e0f96c8e?w=800&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop",
     alt: "Marble floor installation – luxury villa",
     category: "Marble",
   },

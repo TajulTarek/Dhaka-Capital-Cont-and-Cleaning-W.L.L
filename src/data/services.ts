@@ -249,7 +249,7 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides professional moving and shifting services for residential and commercial clients, ensuring safety, efficiency, and care. Our team handles furniture, appliances, office equipment, and fragile items with careful packing, secure handling, and timely delivery. We use reliable materials, modern equipment, and proven techniques to ensure smooth and damage-free relocations. Every move is completed with attention to detail, experienced staff, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1600&auto=format&fit=crop",
     mainImage:
       "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&auto=format&fit=crop",
     subServices: [
@@ -275,7 +275,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Our team disassembles, transports, and reassembles furniture at the destination — so everything arrives in perfect condition.",
         image:
-          "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1586864387789-628af9feed72?w=600&auto=format&fit=crop",
       },
     ],
     craftingTitle: "Crafting Moving & Shifting Services That Last.",
