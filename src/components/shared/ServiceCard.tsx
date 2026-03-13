@@ -62,7 +62,7 @@ export default function ServiceCard({
           <p className="text-sm text-slate-300 mt-1 line-clamp-2">{tagline}</p>
           <span
             className="mt-2 inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider"
-            style={{ color: "#e8620a" }}
+            style={{ color: "#39b2be" }}
           >
             Read More →
           </span>
@@ -78,11 +78,11 @@ export default function ServiceCard({
     >
       <div
         className="w-14 h-14 flex items-center justify-center rounded-full mx-auto mb-4 transition-colors duration-300"
-        style={{ backgroundColor: "#fff3ec" }}
+        style={{ backgroundColor: "#eaf8fa" }}
       >
         <Icon
           size={28}
-          style={{ color: "#e8620a" }}
+          style={{ color: "#39b2be" }}
           className="transition-transform duration-300 group-hover:scale-110"
         />
       </div>
@@ -92,7 +92,7 @@ export default function ServiceCard({
       <p className="text-slate-500 text-sm line-clamp-3">{tagline}</p>
       <span
         className="mt-3 inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider"
-        style={{ color: "#e8620a" }}
+        style={{ color: "#39b2be" }}
       >
         Learn More →
       </span>

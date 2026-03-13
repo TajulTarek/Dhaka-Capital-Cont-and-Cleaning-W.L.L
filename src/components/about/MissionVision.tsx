@@ -17,14 +17,14 @@ export default function MissionVision() {
       >
         <div
           className="absolute -top-6 -right-6 w-32 h-32 rounded-full opacity-10"
-          style={{ backgroundColor: "#e8620a" }}
+          style={{ backgroundColor: "#39b2be" }}
           aria-hidden="true"
         />
         <div
           className="w-12 h-12 flex items-center justify-center rounded-xl mb-5"
-          style={{ backgroundColor: "rgba(232,98,10,0.2)" }}
+          style={{ backgroundColor: "rgba(57,178,190,0.2)" }}
         >
-          <Target size={22} style={{ color: "#e8620a" }} />
+          <Target size={22} style={{ color: "#39b2be" }} />
         </div>
         <h3 className="font-bold text-xl mb-3">Our Mission</h3>
         <p className="text-slate-300 text-sm leading-relaxed">
@@ -37,7 +37,7 @@ export default function MissionVision() {
       {/* Vision */}
       <div
         className="rounded-2xl p-8 text-white relative overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #c9530a, #e8620a)" }}
+        style={{ background: "linear-gradient(135deg, #278f99, #39b2be)" }}
       >
         <div
           className="absolute -top-6 -right-6 w-32 h-32 rounded-full opacity-10 bg-white"

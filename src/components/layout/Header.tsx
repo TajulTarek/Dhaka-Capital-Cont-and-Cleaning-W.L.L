@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { NAV_ITEMS } from "@/data/nav";
@@ -68,38 +69,30 @@ export default function Header() {
                 +974 55 740 434
               </a>
               <a
-                href="https://wa.me/97466895375"
+                href="https://wa.me/97455740434"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 hover:opacity-80 transition-opacity"
               >
                 <span>WA:</span>
-                +974 66 895 375
+                +974 55 740 434
               </a>
             </div>
           </div>
         </div>
 
         {/* ── Main nav ── */}
-        <div className="container-custom flex items-center justify-between py-4">
+        <div className="container-custom flex items-center justify-between py-2.5">
           {/* Logo */}
-          <Link href="/" aria-label="Dhaka Capital home" className="flex items-center gap-3 group">
-            {/* SVG logo mark */}
-            <div
-              className="w-10 h-10 flex items-center justify-center rounded-lg font-black text-white text-lg transition-transform group-hover:scale-105"
-              style={{ backgroundColor: "#e8620a" }}
-              aria-hidden="true"
-            >
-              D
-            </div>
-            <div className="leading-tight">
-              <span className="block font-extrabold text-[#0b1120] text-base tracking-tight">
-                Dhaka Capital
-              </span>
-              <span className="block text-[10px] uppercase tracking-widest text-slate-400 font-medium">
-                Cont &amp; Cleaning W.L.L
-              </span>
-            </div>
+          <Link href="/" aria-label="Dhaka Capital home" className="group inline-flex items-center">
+            <Image
+              src="/brand-logo.png"
+              alt="Dhaka Capital Cont and Cleaning W.L.L"
+              width={420}
+              height={110}
+              priority
+              className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+            />
           </Link>
 
           {/* Desktop nav */}
@@ -112,8 +105,8 @@ export default function Header() {
                     className={[
                       "flex items-center gap-1 px-4 py-2 rounded-md text-sm font-medium transition-colors",
                       isActive(item.href)
-                        ? "text-[#e8620a]"
-                        : "text-[#0b1120] hover:text-[#e8620a]",
+                        ? "text-[#39b2be]"
+                        : "text-[#0b1120] hover:text-[#39b2be]",
                     ].join(" ")}
                     aria-haspopup="true"
                     aria-expanded={dropdownOpen}
@@ -135,8 +128,8 @@ export default function Header() {
                           className={[
                             "block px-4 py-2.5 text-sm transition-colors",
                             pathname === child.href
-                              ? "text-[#e8620a] font-semibold bg-orange-50"
-                              : "text-slate-700 hover:text-[#e8620a] hover:bg-orange-50",
+                              ? "text-[#39b2be] font-semibold bg-cyan-50"
+                              : "text-slate-700 hover:text-[#39b2be] hover:bg-cyan-50",
                           ].join(" ")}
                         >
                           {child.label}
@@ -152,8 +145,8 @@ export default function Header() {
                   className={[
                     "px-4 py-2 rounded-md text-sm font-medium transition-colors",
                     isActive(item.href)
-                      ? "text-[#e8620a] font-semibold"
-                      : "text-[#0b1120] hover:text-[#e8620a]",
+                      ? "text-[#39b2be] font-semibold"
+                      : "text-[#0b1120] hover:text-[#39b2be]",
                   ].join(" ")}
                 >
                   {item.label}
@@ -167,7 +160,7 @@ export default function Header() {
             <a
               href="tel:+97460024123"
               className="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-md text-sm font-semibold text-white transition-all hover:opacity-90"
-              style={{ backgroundColor: "#e8620a" }}
+              style={{ backgroundColor: "#39b2be" }}
             >
               <Phone size={14} />
               Call Us

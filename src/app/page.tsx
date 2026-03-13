@@ -4,6 +4,7 @@ import Hero from "@/components/home/Hero";
 import PrimaryServices from "@/components/home/PrimaryServices";
 import WhereWeWork from "@/components/home/WhereWeWork";
 import StatsCounter from "@/components/home/StatsCounter";
+import BeforeAfter from "@/components/home/BeforeAfter";
 import WorkingProcess from "@/components/home/WorkingProcess";
 import FAQ from "@/components/home/FAQ";
 import Gallery from "@/components/home/Gallery";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <PrimaryServices />
       <WhereWeWork />
       <StatsCounter />
+      <BeforeAfter />
       <WorkingProcess />
       <FAQ />
       <Gallery />

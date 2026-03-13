@@ -39,7 +39,7 @@ export default function Gallery() {
               <button
                 key={i}
                 onClick={() => setLightboxSrc(img.src)}
-                className="relative group overflow-hidden rounded-xl block aspect-square focus:outline-none focus:ring-2 focus:ring-[#e8620a] focus:ring-offset-2"
+                className="relative group overflow-hidden rounded-xl block aspect-square focus:outline-none focus:ring-2 focus:ring-[#39b2be] focus:ring-offset-2"
                 aria-label={`View: ${img.alt}`}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -58,7 +58,7 @@ export default function Gallery() {
                 {/* Category badge */}
                 <span
                   className="absolute top-2 left-2 px-2 py-0.5 rounded-full text-[10px] font-bold text-white uppercase tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  style={{ backgroundColor: "#e8620a" }}
+                  style={{ backgroundColor: "#39b2be" }}
                 >
                   {img.category}
                 </span>

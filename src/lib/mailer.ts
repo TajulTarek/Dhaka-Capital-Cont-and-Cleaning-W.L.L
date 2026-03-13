@@ -24,7 +24,7 @@ export async function sendContactEmail(data: ContactFormData): Promise<void> {
 
   const htmlBody = `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <div style="background: #e8620a; padding: 20px; border-radius: 8px 8px 0 0;">
+      <div style="background: #39b2be; padding: 20px; border-radius: 8px 8px 0 0;">
         <h2 style="color: #ffffff; margin: 0;">New Contact Form Submission</h2>
         <p style="color: rgba(255,255,255,0.85); margin: 4px 0 0;">Dhaka Capital Cont and Cleaning W.L.L</p>
       </div>

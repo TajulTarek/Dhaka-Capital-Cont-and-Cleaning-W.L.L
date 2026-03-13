@@ -125,7 +125,7 @@ Add environment variables via the Vercel dashboard > Settings > Environment Vari
 
 | Token | Value | Usage |
 |-------|-------|-------|
-| --color-brand | #e8620a | CTA buttons, underlines, accents |
+| --color-brand | #39b2be | CTA buttons, underlines, accents |
 | --color-navy  | #0b1120 | Primary background, header, footer |
 | --color-off-white | #f8f7f5 | Alternating section backgrounds |
 

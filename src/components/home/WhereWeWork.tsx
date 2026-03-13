@@ -69,7 +69,7 @@ export default function WhereWeWork() {
               <div className="absolute top-4 left-4">
                 <span
                   className="px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-wider"
-                  style={{ backgroundColor: "#e8620a" }}
+                  style={{ backgroundColor: "#39b2be" }}
                 >
                   {area.label}
                 </span>

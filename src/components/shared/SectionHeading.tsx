@@ -29,7 +29,7 @@ export default function SectionHeading({
       {eyebrow && (
         <span
           className="inline-block text-sm font-semibold uppercase tracking-widest mb-3"
-          style={{ color: "#e8620a" }}
+          style={{ color: "#39b2be" }}
         >
           {eyebrow}
         </span>
@@ -59,7 +59,7 @@ export default function SectionHeading({
       {/* Decorative underline */}
       <div
         className={["mt-4 h-1 w-16 rounded-full", center ? "mx-auto" : ""].join(" ")}
-        style={{ backgroundColor: "#e8620a" }}
+        style={{ backgroundColor: "#39b2be" }}
       />
     </div>
   );

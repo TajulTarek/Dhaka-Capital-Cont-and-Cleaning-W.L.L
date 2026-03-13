@@ -40,7 +40,7 @@ export default function FAQ() {
             >
               <button
                 onClick={() => toggle(i)}
-                className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left font-semibold text-[#0b1120] hover:text-[#e8620a] transition-colors text-sm md:text-base"
+                className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left font-semibold text-[#0b1120] hover:text-[#39b2be] transition-colors text-sm md:text-base"
                 aria-expanded={openIdx === i}
                 aria-controls={`faq-body-${i}`}
                 id={`faq-btn-${i}`}
@@ -48,7 +48,7 @@ export default function FAQ() {
                 <span>{faq.question}</span>
                 <span
                   className="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full text-white transition-colors"
-                  style={{ backgroundColor: openIdx === i ? "#e8620a" : "#0b1120" }}
+                  style={{ backgroundColor: openIdx === i ? "#39b2be" : "#0b1120" }}
                   aria-hidden="true"
                 >
                   {openIdx === i ? <Minus size={13} /> : <Plus size={13} />}

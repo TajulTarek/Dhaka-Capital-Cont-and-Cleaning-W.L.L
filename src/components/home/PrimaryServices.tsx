@@ -69,7 +69,7 @@ export default function PrimaryServices() {
                       >
                         <span
                           className="mt-[5px] w-1.5 h-1.5 rounded-full flex-shrink-0"
-                          style={{ backgroundColor: "#e8620a" }}
+                          style={{ backgroundColor: "#39b2be" }}
                           aria-hidden="true"
                         />
                         {sub.title}

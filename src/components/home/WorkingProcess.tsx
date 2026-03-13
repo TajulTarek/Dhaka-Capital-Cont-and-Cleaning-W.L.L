@@ -75,15 +75,15 @@ export default function WorkingProcess() {
                 {/* Icon circle */}
                 <div
                   className="w-20 h-20 flex items-center justify-center rounded-full mb-5 shadow-lg"
-                  style={{ backgroundColor: "#fff3ec", border: "3px solid #e8620a" }}
+                  style={{ backgroundColor: "#eaf8fa", border: "3px solid #39b2be" }}
                 >
-                  <Icon size={32} style={{ color: "#e8620a" }} />
+                  <Icon size={32} style={{ color: "#39b2be" }} />
                 </div>
 
                 {/* Step number badge */}
                 <span
                   className="absolute top-0 right-[calc(50%-40px+28px)] -mt-1 text-[10px] font-black text-white w-5 h-5 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: "#e8620a" }}
+                  style={{ backgroundColor: "#39b2be" }}
                 >
                   {i + 1}
                 </span>

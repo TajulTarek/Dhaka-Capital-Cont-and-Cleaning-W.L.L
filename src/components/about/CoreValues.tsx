@@ -58,9 +58,9 @@ export default function CoreValues() {
           >
             <div
               className="w-12 h-12 flex items-center justify-center rounded-xl mb-4"
-              style={{ backgroundColor: "#fff3ec" }}
+              style={{ backgroundColor: "#eaf8fa" }}
             >
-              <Icon size={24} style={{ color: "#e8620a" }} />
+              <Icon size={24} style={{ color: "#39b2be" }} />
             </div>
             <h3 className="font-bold text-[#0b1120] text-base mb-2">{v.title}</h3>
             <p className="text-slate-500 text-sm leading-relaxed">{v.body}</p>

@@ -54,7 +54,7 @@ export default function ContactForm() {
 
   /* Field helper */
   const inputCls =
-    "w-full text-sm px-4 py-3 rounded-lg border border-slate-200 bg-[#f8f7f5] focus:outline-none focus:ring-2 focus:ring-[#e8620a] focus:border-transparent text-[#0b1120] placeholder:text-slate-400 transition-shadow";
+    "w-full text-sm px-4 py-3 rounded-lg border border-slate-200 bg-[#f8f7f5] focus:outline-none focus:ring-2 focus:ring-[#39b2be] focus:border-transparent text-[#0b1120] placeholder:text-slate-400 transition-shadow";
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8">
@@ -92,7 +92,7 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label htmlFor="name" className="block text-xs font-semibold text-slate-600 mb-1.5">
-              Full Name <span className="text-[#e8620a]">*</span>
+              Full Name <span className="text-[#39b2be]">*</span>
             </label>
             <input
               id="name"
@@ -107,7 +107,7 @@ export default function ContactForm() {
           </div>
           <div>
             <label htmlFor="email" className="block text-xs font-semibold text-slate-600 mb-1.5">
-              Email Address <span className="text-[#e8620a]">*</span>
+              Email Address <span className="text-[#39b2be]">*</span>
             </label>
             <input
               id="email"
@@ -116,7 +116,7 @@ export default function ContactForm() {
               required
               value={form.email}
               onChange={handleChange}
-              placeholder="john@example.com"
+              placeholder="dhkcptl@gmail.com"
               className={inputCls}
             />
           </div>
@@ -166,7 +166,7 @@ export default function ContactForm() {
         {/* Message */}
         <div>
           <label htmlFor="message" className="block text-xs font-semibold text-slate-600 mb-1.5">
-            Message <span className="text-[#e8620a]">*</span>
+            Message <span className="text-[#39b2be]">*</span>
           </label>
           <textarea
             id="message"
@@ -185,7 +185,7 @@ export default function ContactForm() {
           type="submit"
           disabled={status === "submitting"}
           className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg font-bold text-white text-sm transition-all hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed"
-          style={{ backgroundColor: "#e8620a" }}
+          style={{ backgroundColor: "#39b2be" }}
         >
           {status === "submitting" ? (
             <>

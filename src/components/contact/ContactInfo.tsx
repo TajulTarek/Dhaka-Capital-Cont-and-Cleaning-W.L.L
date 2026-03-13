@@ -1,6 +1,6 @@
 // ── ContactInfo ───────────────────────────────────────────────────────────────
 import React from "react";
-import { MapPin, Phone, MessageSquare } from "lucide-react";
+import { MapPin, Phone, MessageSquare, Mail } from "lucide-react";
 
 const INFO_ITEMS = [
   {
@@ -20,15 +20,22 @@ const INFO_ITEMS = [
   {
     icon: MessageSquare,
     title: "WHATSAPP",
-    lines: ["+974 66 895 375"],
-    href: "https://wa.me/97466895375",
+    lines: ["+974 55 740 434"],
+    href: "https://wa.me/97455740434",
     linkLabel: "Message on WhatsApp",
+  },
+  {
+    icon: Mail,
+    title: "EMAIL",
+    lines: ["dhkcptl@gmail.com"],
+    href: "mailto:dhkcptl@gmail.com",
+    linkLabel: "Send email",
   },
 ];
 
 export default function ContactInfo() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {INFO_ITEMS.map((item) => {
         const Icon = item.icon;
         return (
@@ -41,13 +48,13 @@ export default function ContactInfo() {
           >
             <div
               className="w-14 h-14 flex items-center justify-center rounded-full mb-4 transition-colors duration-300"
-              style={{ backgroundColor: "#fff3ec" }}
+              style={{ backgroundColor: "#eaf8fa" }}
             >
-              <Icon size={26} style={{ color: "#e8620a" }} />
+              <Icon size={26} style={{ color: "#39b2be" }} />
             </div>
             <h3
               className="text-xs font-bold uppercase tracking-widest mb-2"
-              style={{ color: "#e8620a" }}
+              style={{ color: "#39b2be" }}
             >
               {item.title}
             </h3>
@@ -56,7 +63,7 @@ export default function ContactInfo() {
                 {line}
               </p>
             ))}
-            <span className="mt-3 text-xs text-slate-400 group-hover:text-[#e8620a] transition-colors">
+            <span className="mt-3 text-xs text-slate-400 group-hover:text-[#39b2be] transition-colors">
               {item.linkLabel} →
             </span>
           </a>

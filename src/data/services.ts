@@ -11,9 +11,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital delivers high-quality carpentry and joinery solutions for residential and commercial spaces, ensuring strength, precision, and aesthetic appeal. Our team handles doors, cabinets, wardrobes, partitions, wooden floors, and custom furniture with expert measurement, accurate assembly, and clean finishing. We use durable materials and proven craftsmanship techniques to guarantee long-lasting performance. From modern designs to practical layouts, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1614315517650-3771cf72d18a?w=1600&auto=format&fit=crop",
+      "/services/carpentry/hero.webp",
     mainImage:
-      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=900&auto=format&fit=crop",
+      "/services/carpentry/main.webp",
+    photoSuggestions: [
+      "Custom wooden wardrobe installation with sliding panels",
+      "Modern kitchen cabinetry with soft-close drawers",
+      "Interior room door and joinery finishing close-up",
+    ],
     subServices: [
       {
         title: "Room Door",
@@ -21,7 +26,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We supply and install high-quality room doors designed for durability, style, and smooth functionality in every interior space.",
         image:
-          "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&auto=format&fit=crop",
+          "/services/carpentry/room-door.jpg",
       },
       {
         title: "Aluminium Door",
@@ -29,7 +34,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We design and install durable aluminum doors that combine modern aesthetics, strength, and smooth operation for any space.",
         image:
-          "https://images.unsplash.com/photo-1618221639244-c1a8502c0eb9?w=600&auto=format&fit=crop",
+          "/services/carpentry/alm-door.webp",
       },
       {
         title: "UPVC Door",
@@ -37,7 +42,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We provide high-quality UPVC doors that offer durability, insulation, and modern design suitable for residential and commercial spaces.",
         image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&auto=format&fit=crop",
+          "/services/carpentry/upvc-door.jpg",
       },
       {
         title: "Kitchen Cupboard",
@@ -45,7 +50,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We craft stylish and functional kitchen cupboards designed for durability, efficient storage, and a modern elegant look.",
         image:
-          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&auto=format&fit=crop",
+          "/services/carpentry/clip.jpg",
       },
     ],
     craftingTitle: "Crafting Carpentry & Joinery Works That Last.",
@@ -65,9 +70,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital delivers high-quality gypsum and ceiling solutions for residential and commercial spaces, ensuring strength, style, and long-lasting performance. Our team handles false ceilings, partition walls, decorative gypsum designs, bulkheads, and ceiling repairs with precise measurement, proper framing, and clean finishing. We use durable materials and proven installation methods to achieve reliable results. From modern ceiling styles to functional room divisions, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1604871000636-074fa5117945?w=1600&auto=format&fit=crop",
+      "/services/gypsum/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=900&auto=format&fit=crop",
+      "/services/gypsum/main.png",
+    photoSuggestions: [
+      "Layered gypsum false ceiling with LED cove lighting",
+      "Gypsum partition wall framing and finishing",
+      "Decorative gypsum cornice detail in living room",
+    ],
     subServices: [
       {
         title: "Kanish Gypsum Ceiling Decor",
@@ -75,7 +85,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We specialise in Kanish gypsum ceiling décor, adding elegance, creativity, and modern design elements to enhance interior beauty and functionality.",
         image:
-          "https://images.unsplash.com/photo-1635414773069-09a8bbd21dde?w=600&auto=format&fit=crop",
+          "/services/gypsum/kanish-ceiling.png",
       },
       {
         title: "Gypsum Partition",
@@ -83,7 +93,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We provide high-quality gypsum partition works that enhance interior spaces, offering durability, aesthetic appeal, and efficient space separation for any project.",
         image:
-          "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?w=600&auto=format&fit=crop",
+          "/services/gypsum/partition.jpg",
       },
     ],
     craftingTitle: "Crafting Gypsum & Ceiling Works That Last.",
@@ -103,9 +113,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality marble and stone solutions for residential and commercial projects, delivering exceptional durability and elegant visual appeal. Our team handles flooring, wall cladding, staircases, countertops, kitchens, bathrooms, and outdoor stonework with precise cutting, proper leveling, and clean finishing. We use premium materials and proven installation techniques to ensure long-lasting performance. From modern concepts to classic designs, every project is completed with attention to detail, professional craftsmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&auto=format&fit=crop",
+      "/services/marble/hero.webp",
     mainImage:
-      "https://images.unsplash.com/photo-1591030617719-ce46e0f96c8e?w=900&auto=format&fit=crop",
+      "/services/marble/main.jpg",
+    photoSuggestions: [
+      "Marble staircase with polished edge profiles",
+      "Natural stone feature wall cladding in exterior area",
+      "Kitchen marble countertop with backsplash detailing",
+    ],
     subServices: [
       {
         title: "Marble",
@@ -113,7 +128,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Dhaka Capital provides premium marble finishes for floors, walls, and decorative surfaces. Durable, stylish, and timeless, our marble work enhances the beauty and sophistication of residential and commercial spaces.",
         image:
-          "https://images.unsplash.com/photo-1591030617719-ce46e0f96c8e?w=600&auto=format&fit=crop",
+          "/services/marble/marble.jpg",
       },
       {
         title: "Stone",
@@ -121,7 +136,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Our expert team delivers precision-cut stone installations for both interior and exterior projects. Strong, durable, and visually appealing, our stone solutions combine functionality with modern design.",
         image:
-          "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&auto=format&fit=crop",
+          "/services/marble/stone.jpg",
       },
       {
         title: "Kitchen Marble",
@@ -129,7 +144,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Upgrade your kitchen with Dhaka Capital's custom kitchen marble surfaces. Resistant, easy to maintain, and elegant, our marble countertops and backsplashes provide both practicality and lasting beauty.",
         image:
-          "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&auto=format&fit=crop",
+          "/services/marble/kitchen-marble.png",
       },
     ],
     craftingTitle: "Crafting Marble & Stone Works That Last.",
@@ -149,9 +164,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality masonry and civil solutions for residential and commercial projects, ensuring strength, durability, and aesthetic appeal. Our team handles walls, foundations, flooring, partitions, and exterior structures with precise measurement, proper alignment, and clean finishing. We use durable materials and proven construction methods to ensure long-lasting performance. From modern designs to practical layouts, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&auto=format&fit=crop",
+      "/services/masonry/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&auto=format&fit=crop",
+      "/services/masonry/main.png",
+    photoSuggestions: [
+      "Concrete block wall construction in progress",
+      "Fresh plaster leveling and smooth wall finish",
+      "Interlock paving installation for driveway area",
+    ],
     subServices: [
       {
         title: "Block Work",
@@ -159,7 +179,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Dhaka Capital delivers strong and precise block work for walls, partitions, and structural elements. Our skilled team ensures accurate alignment, clean finishing, and long-lasting durability for residential and commercial projects.",
         image:
-          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&auto=format&fit=crop",
+          "/services/masonry/block-work.png",
       },
       {
         title: "Plaster",
@@ -167,7 +187,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Our expert plastering services provide flawless wall and ceiling finishes. Using high-quality materials and proven techniques, we ensure smooth, even surfaces that enhance both aesthetics and structural integrity.",
         image:
-          "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop",
+          "/services/masonry/plaster.png",
       },
       {
         title: "Outside Interlock",
@@ -175,7 +195,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Dhaka Capital offers professional installation of interlocking paving for driveways, walkways, and outdoor areas. Our work combines durability, precision, and attractive patterns to create safe and visually appealing surfaces.",
         image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&auto=format&fit=crop",
+          "/services/masonry/interlock.jpg",
       },
     ],
     craftingTitle: "Crafting Masonry & Civil Works That Last.",
@@ -195,25 +215,30 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality MEP solutions for residential and commercial projects, ensuring reliable performance, safety, and efficiency. Our team handles electrical, plumbing, HVAC, fire-fighting, drainage, and mechanical installations with precise planning, proper execution, and clean finishing. We use trusted materials and proven engineering methods to deliver long-lasting, compliant, and energy-efficient systems. From modern buildings to functional upgrades, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&auto=format&fit=crop",
+      "/services/mep/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&auto=format&fit=crop",
+      "/services/mep/main.png",
+    photoSuggestions: [
+      "Electrical panel board and cable management setup",
+      "Plumbing pipe network with sanitary fixture points",
+      "HVAC duct installation in commercial ceiling",
+    ],
     subServices: [
-      {
-        title: "Electrical Works",
-        subtitle: "Safe & Reliable Electrical Installations",
-        description:
-          "Complete electrical installations, wiring, panel boards, conduit runs, lighting, and power systems for residential and commercial buildings.",
-        image:
-          "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
-      },
+      // {
+      //   title: "Electrical Works",
+      //   subtitle: "Safe & Reliable Electrical Installations",
+      //   description:
+      //     "Complete electrical installations, wiring, panel boards, conduit runs, lighting, and power systems for residential and commercial buildings.",
+      //   image:
+      //     "/services/mep/hero-illustration.png",
+      // },
       {
         title: "Plumbing Works",
         subtitle: "Expert Plumbing Systems",
         description:
           "Full plumbing services including supply lines, drainage, sanitary ware installation, water heaters, and leak repairs for any building type.",
         image:
-          "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&auto=format&fit=crop",
+          "/services/mep/plumbing.png",
       },
       {
         title: "HVAC Works",
@@ -221,16 +246,16 @@ export const SERVICES: ServiceData[] = [
         description:
           "Design and installation of air-conditioning and ventilation systems — split units, ducted AC, chillers, fresh-air units — optimised for Qatar's climate.",
         image:
-          "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&auto=format&fit=crop",
+          "/services/mep/hvac.png",
       },
-      {
-        title: "Fire Fighting Works",
-        subtitle: "Compliant Fire Protection Systems",
-        description:
-          "Installation of sprinkler systems, fire alarms, extinguishers, hose reels, and suppression systems meeting all Qatar civil defence regulations.",
-        image:
-          "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=600&auto=format&fit=crop",
-      },
+      // {
+      //   title: "Fire Fighting Works",
+      //   subtitle: "Compliant Fire Protection Systems",
+      //   description:
+      //     "Installation of sprinkler systems, fire alarms, extinguishers, hose reels, and suppression systems meeting all Qatar civil defence regulations.",
+      //   image:
+      //     "/services/mep/fire-fighting.webp",
+      // },
     ],
     craftingTitle: "Crafting MEP Works That Last.",
     craftingBody:
@@ -249,9 +274,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides professional moving and shifting services for residential and commercial clients, ensuring safety, efficiency, and care. Our team handles furniture, appliances, office equipment, and fragile items with careful packing, secure handling, and timely delivery. We use reliable materials, modern equipment, and proven techniques to ensure smooth and damage-free relocations. Every move is completed with attention to detail, experienced staff, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1600&auto=format&fit=crop",
+      "/services/moving/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&auto=format&fit=crop",
+      "/services/moving/main.png",
+    photoSuggestions: [
+      "Professional packing and wrapping of household items",
+      "Office workstation relocation in progress",
+      "Furniture disassembly and reassembly workflow",
+    ],
     subServices: [
       {
         title: "Residential Moving",
@@ -259,23 +289,23 @@ export const SERVICES: ServiceData[] = [
         description:
           "From packing your belongings to transport and unpacking at the new location, we handle every aspect of your home move with care.",
         image:
-          "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&auto=format&fit=crop",
+          "/services/moving/commercial.webp",
       },
-      {
-        title: "Commercial Moving",
-        subtitle: "Efficient Office Relocation",
-        description:
-          "Minimise downtime with our fast, organised commercial moving service for offices, businesses, warehouses, and retail spaces.",
-        image:
-          "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=600&auto=format&fit=crop",
-      },
+      // {
+      //   title: "Commercial Moving",
+      //   subtitle: "Efficient Office Relocation",
+      //   description:
+      //     "Minimise downtime with our fast, organised commercial moving service for offices, businesses, warehouses, and retail spaces.",
+      //   image:
+      //     "/services/moving/commercial.webp",
+      // },
       {
         title: "Furniture Assembly",
         subtitle: "Expert Furniture Assembly",
         description:
           "Our team disassembles, transports, and reassembles furniture at the destination — so everything arrives in perfect condition.",
         image:
-          "https://images.unsplash.com/photo-1586864387789-628af9feed72?w=600&auto=format&fit=crop",
+          "/services/moving/furniture.png",
       },
     ],
     craftingTitle: "Crafting Moving & Shifting Services That Last.",
@@ -295,9 +325,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality painting solutions for residential and commercial spaces, delivering both durability and visual appeal. Our team handles interior walls, ceilings, exterior surfaces, and specialty finishes with careful surface preparation, smooth application, and clean finishing. We use premium paints and proven techniques to ensure long-lasting results. From modern colour schemes to classic designs, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=1600&auto=format&fit=crop",
+      "services/painting/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1574359411659-15573a27fd0c?w=900&auto=format&fit=crop",
+      "/services/painting/main.png",
+    photoSuggestions: [
+      "Interior wall painting with clean edge cutting",
+      "Exterior facade painting using scaffolding",
+      "Ceiling repaint with smooth roller finish",
+    ],
     subServices: [
       {
         title: "Interior Painting",
@@ -305,7 +340,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Dhaka Capital delivers premium interior painting services that transform your living and working spaces. We use high-quality paints and precise techniques to achieve smooth, vibrant, and long-lasting finishes.",
         image:
-          "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=600&auto=format&fit=crop",
+          "/services/painting/interior.png",
       },
       {
         title: "Exterior Painting",
@@ -313,7 +348,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Our exterior painting solutions protect and beautify your building. With weather-resistant paints and professional application, we ensure lasting colour, smooth surfaces, and enhanced curb appeal.",
         image:
-          "https://images.unsplash.com/photo-1571168338607-b41b69c1e3cb?w=600&auto=format&fit=crop",
+          "/services/painting/exterior.png",
       },
       {
         title: "Ceiling Painting",
@@ -321,7 +356,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Enhance your interiors with Dhaka Capital's ceiling painting services. Our team ensures smooth, even coverage and neat finishes, giving your ceilings a polished and visually appealing look.",
         image:
-          "https://images.unsplash.com/photo-1604761483821-b5e0c31f7cfc?w=600&auto=format&fit=crop",
+          "/services/painting/ceiling.png",
       },
       {
         title: "Wall Painting",
@@ -329,7 +364,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We specialise in wall painting that combines aesthetics with durability. Our expert team prepares surfaces carefully and applies paints evenly to achieve flawless, long-lasting finishes.",
         image:
-          "https://images.unsplash.com/photo-1574359411659-15573a27fd0c?w=600&auto=format&fit=crop",
+          "/services/painting/wall.png",
       },
     ],
     craftingTitle: "Crafting Painting Works That Last.",
@@ -349,9 +384,14 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality tiling solutions for residential and commercial spaces, delivering both durability and visual appeal. Our team handles bathroom, kitchen, room, parking, and outdoor tiling with careful surface preparation, accurate alignment, and clean finishing. We use reliable materials and proven installation methods to ensure long-lasting performance. From modern designs to practical layouts, every project is completed with attention to detail, professional workmanship, and a commitment to meeting client expectations on time.",
     heroImage:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&auto=format&fit=crop",
+      "/services/tiling/hero.png",
     mainImage:
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&auto=format&fit=crop",
+      "/services/tiling/main.webp",
+    photoSuggestions: [
+      "Bathroom floor and wall tile alignment",
+      "Kitchen backsplash tiling with grout finish",
+      "Outdoor parking tile installation with slope control",
+    ],
     subServices: [
       {
         title: "Bathroom Tiles",
@@ -359,7 +399,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We provide stylish and long-lasting bathroom tiles that combine functionality with elegance. Our high-quality tiles are water-resistant, easy to maintain, and designed to enhance the look and comfort of your bathroom.",
         image:
-          "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&auto=format&fit=crop",
+          "/services/tiling/bathroom.webp",
       },
       {
         title: "Kitchen Tiles",
@@ -367,7 +407,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Upgrade your kitchen with Dhaka Capital's premium kitchen tiles. Resistant to stains, heat, and scratches, our tiles provide durability without compromising style.",
         image:
-          "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&auto=format&fit=crop",
+          "/services/tiling/kitchen.png",
       },
       {
         title: "Room Tiles",
@@ -375,7 +415,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "Transform your living spaces with Dhaka Capital's high-quality room tiles. Perfect for bedrooms, living rooms, or lounges, our tiles offer comfort, elegance, and easy maintenance.",
         image:
-          "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop",
+          "/services/tiling/room.webp",
       },
       {
         title: "Parking Tiles",
@@ -383,7 +423,7 @@ export const SERVICES: ServiceData[] = [
         description:
           "We deliver robust and durable parking tiles designed to withstand heavy loads and harsh weather. Our tiles offer a safe, non-slip surface while enhancing the overall aesthetics of your outdoor areas.",
         image:
-          "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&auto=format&fit=crop",
+          "/services/tiling/parking.webp",
       },
     ],
     craftingTitle: "Crafting Tiling Works That Last.",
@@ -399,3 +439,4 @@ export const SERVICES: ServiceData[] = [
 export function getServiceBySlug(slug: string): ServiceData | undefined {
   return SERVICES.find((s) => s.slug === slug);
 }
+

@@ -18,7 +18,7 @@ export default function ContactPage() {
         title="Contact Us"
         subtitle="We are here to assist you with any inquiries or services you need. Reach out via phone, WhatsApp, or our contact form."
         breadcrumbs={[{ label: "Contact" }]}
-        backgroundImage="https://images.unsplash.com/photo-1423946996279-2aa8f4c7a6fe?w=1600&auto=format&fit=crop"
+        backgroundImage="/contact/contact-hero.png"
       />
 
       <section className="section-padding bg-white">

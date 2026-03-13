@@ -28,7 +28,7 @@ export default function AnimatedCounter({
     >
       <span className="text-5xl font-bold text-white tabular-nums">
         {count}
-        <span style={{ color: "#e8620a" }}>{suffix}</span>
+        <span style={{ color: "#39b2be" }}>{suffix}</span>
       </span>
       <span className="mt-2 text-sm font-medium uppercase tracking-widest text-slate-300">
         {label}

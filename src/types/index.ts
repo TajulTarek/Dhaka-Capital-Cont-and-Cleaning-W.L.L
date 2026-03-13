@@ -12,8 +12,9 @@ export interface ServiceData {
   shortTitle: string;
   tagline: string;
   heroDescription: string;
-  heroImage: string;          // Unsplash URL
-  mainImage: string;          // section image URL
+  heroImage: string;          // hero background image path
+  mainImage: string;          // intro section image path
+  photoSuggestions?: string[];
   subServices: SubService[];
   craftingTitle: string;
   craftingBody: string;

@@ -2,9 +2,9 @@
 
 /* ── Brand Design Tokens (Tailwind v4 @theme) ──────────────────────── */
 @theme {
-  --color-brand:         #e8620a;
-  --color-brand-dark:    #c9530a;
-  --color-brand-light:   #ff8c42;
+  --color-brand:         #39b2be;
+  --color-brand-dark:    #278f99;
+  --color-brand-light:   #63cad4;
   --color-navy:          #0b1120;
   --color-navy-2:        #0f1e30;
   --color-navy-3:        #152840;
@@ -65,4 +65,4 @@ body {
 /* ── Scrollbar ──────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #e8620a; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #39b2be; border-radius: 3px; }
