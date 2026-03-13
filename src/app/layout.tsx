@@ -56,6 +56,11 @@ export const metadata: Metadata = {
     description: "Professional contracting services in Doha, Qatar.",
     images: ["/og-image.jpg"],
   },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   robots: {
     index: true,
     follow: true,
