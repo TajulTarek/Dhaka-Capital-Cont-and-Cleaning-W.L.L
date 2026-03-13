@@ -5,9 +5,9 @@ import ServiceCard from "@/components/shared/ServiceCard";
 import { SERVICES } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "Our Services | Laiba Contracting W.L.L",
+  title: "Our Services | Dhaka Capital Contracting and Cleaning W.L.L",
   description:
-    "Explore the full range of contracting, renovation, and maintenance services offered by Laiba Contracting in Doha, Qatar — including carpentry, painting, tiling, MEP, and more.",
+    "Explore the full range of contracting, renovation, and maintenance services offered by Dhaka Capital Contracting and Cleaning W.L.L in Doha, Qatar - including carpentry, painting, tiling, MEP, and more.",
   alternates: { canonical: "https://laibacontracting-wll.com/services" },
 };
 

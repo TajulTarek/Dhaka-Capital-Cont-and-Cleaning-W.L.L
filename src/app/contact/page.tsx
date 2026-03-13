@@ -5,9 +5,9 @@ import ContactInfo from "@/components/contact/ContactInfo";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Laiba Contracting W.L.L",
+  title: "Contact Us | Dhaka Capital Contracting and Cleaning W.L.L",
   description:
-    "Get in touch with Laiba Contracting in Doha, Qatar. Call, WhatsApp, or use the contact form for quotes, project enquiries, and support.",
+    "Get in touch with Dhaka Capital Contracting and Cleaning W.L.L in Doha, Qatar. Call, WhatsApp, or use the contact form for quotes, project enquiries, and support.",
   alternates: { canonical: "https://laibacontracting-wll.com/contact" },
 };
 
@@ -41,7 +41,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Laiba Contracting location – Industrial area Doha, Qatar"
+              title="Dhaka Capital Contracting and Cleaning W.L.L location - Industrial area Doha, Qatar"
             />
           </div>
         </div>

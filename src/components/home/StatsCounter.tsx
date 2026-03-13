@@ -3,10 +3,10 @@ import React from "react";
 import AnimatedCounter from "@/components/shared/AnimatedCounter";
 
 const STATS = [
-  { target: 250,  suffix: "+", label: "Commercial Projects" },
-  { target: 800,  suffix: "+", label: "Residential Projects" },
-  { target: 50,   suffix: "+", label: "Hard Working Employees" },
-  { target: 1000, suffix: "+", label: "Happy Customers" },
+  { target: 50,  suffix: "+", label: "Commercial Projects" },
+  { target: 100,  suffix: "+", label: "Residential Projects" },
+  { target: 40,   suffix: "+", label: "Hard Working Employees" },
+  { target: 100, suffix: "+", label: "Happy Customers" },
 ];
 
 export default function StatsCounter({ light = false }: { light?: boolean }) {

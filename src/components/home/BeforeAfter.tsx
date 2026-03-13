@@ -46,7 +46,7 @@ export default function BeforeAfter() {
           <SectionHeading
             eyebrow="Our Work"
             title="Before & After Transformations"
-            subtitle="See the difference our craftsmanship makes. Drag the slider to reveal the transformation."
+            //subtitle="See the difference our craftsmanship makes. Drag the slider to reveal the transformation."
             center
           />
         </motion.div>

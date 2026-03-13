@@ -25,7 +25,7 @@ export default function Gallery() {
             <SectionHeading
               eyebrow="Our Gallery"
               title="Highlighting Our Workmanship"
-              subtitle="Our gallery showcases completed projects by Laiba Contracting, highlighting our workmanship, attention to detail, and commitment to quality. Each project reflects our focus on reliable execution, durable results, and clean finishing across renovation, maintenance, and technical works."
+              subtitle="Our gallery showcases completed projects by Dhaka Capital Contracting and Cleaning W.L.L, highlighting our workmanship, attention to detail, and commitment to quality. Each project reflects our focus on reliable execution, durable results, and clean finishing across renovation, maintenance, and technical works."
               center
             />
           </div>

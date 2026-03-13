@@ -7,12 +7,12 @@ import { CheckCircle2, Phone, ArrowRight, Wrench } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 
 const TYPING_SERVICES = [
-  "Carpentry Works",
+  "Carpentry",
   "Painting Works",
   "Civil Works",
   "MEP Works",
   "Interior Works",
-  "Renovation Works",
+  "Renovation",
 ];
 
 const QUICK_SERVICES = ["Carpentry", "Civil Works", "Painting", "MEP", "Tiling", "Marble"];
@@ -62,7 +62,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-[position:78%_center] sm:bg-[position:72%_center] lg:bg-center"
+      className="relative overflow-hidden bg-cover bg-position-[78%_center] sm:bg-position-[72%_center] lg:bg-center"
       aria-label="Hero section"
       style={{
         backgroundImage: `url('${HERO_BG_IMAGE}')`,
@@ -89,7 +89,7 @@ export default function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(135deg, rgba(10,15,30,0.38) 0%, rgba(10,15,30,0.26) 50%, rgba(10,15,30,0.36) 100%)",
+            "linear-gradient(135deg, rgba(0,0,0,0.58) 0%, rgba(0,0,0,0.50) 50%, rgba(0,0,0,0.55) 100%)",
         }}
       />
 
@@ -116,6 +116,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.45, delay: 0.12 }}
               className="mt-5 text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.08] tracking-tight text-white"
+              style={{ textShadow: "0 2px 12px rgba(0,0,0,0.45)" }}
             >
               Quality Construction
               <br />
@@ -126,18 +127,20 @@ export default function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.45, delay: 0.2 }}
-              className="mt-3 sm:mt-4 text-base sm:text-xl font-bold text-white/90 min-h-[2.2rem] sm:min-h-[2.5rem]"
+              className="mt-3 min-h-[2.2rem] text-base font-bold text-white/90 sm:mt-4 sm:min-h-10 sm:text-xl"
+              style={{ textShadow: "0 1px 10px rgba(0,0,0,0.42)" }}
             >
               Quality Construction for{" "}
-              <span className="text-brand">{typedText}</span>
-              <span className="ml-0.5 inline-block h-5 w-[2px] animate-pulse bg-brand align-middle" />
+              <span className="text-orange-400">{typedText}</span>
+              <span className="ml-0.5 inline-block h-5 w-0.5 animate-pulse bg-orange-400 align-middle" />
             </motion.h2>
 
             <motion.p
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.45, delay: 0.26 }}
-              className="mt-4 text-sm sm:text-base text-white/80 max-w-xl leading-relaxed"
+              className="mt-4 text-sm sm:text-base text-white/90 max-w-xl leading-relaxed"
+              style={{ textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
             >
               Reliable contracting, renovation, and maintenance services for residential,
               commercial, and industrial projects.

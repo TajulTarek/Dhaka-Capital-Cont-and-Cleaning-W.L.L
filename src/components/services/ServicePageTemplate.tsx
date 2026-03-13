@@ -17,10 +17,10 @@ export function buildServiceMetadata(slug: string): Metadata {
   const service = getServiceBySlug(slug);
   if (!service) return {};
   return {
-    title: `${service.title} | Laiba Contracting W.L.L`,
+    title: `${service.title} | Dhaka Capital Contracting and Cleaning W.L.L`,
     description: service.metaDescription,
     openGraph: {
-      title: `${service.title} | Laiba Contracting W.L.L`,
+      title: `${service.title} | Dhaka Capital Contracting and Cleaning W.L.L`,
       description: service.metaDescription,
       images: [{ url: service.heroImage, width: 1600, height: 900, alt: service.title }],
     },

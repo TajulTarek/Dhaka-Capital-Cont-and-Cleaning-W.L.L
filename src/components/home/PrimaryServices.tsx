@@ -18,7 +18,7 @@ export default function PrimaryServices() {
           <SectionHeading
             eyebrow="Primary Services"
             title="What We Offer"
-            subtitle="We offer a complete range of contracting, renovation, and maintenance services designed to meet residential, commercial, and industrial needs. From skilled workmanship to reliable execution, our team delivers practical solutions, quality finishes, and results you can depend on."
+            subtitle="We offer a complete range of contracting, renovation, and maintenance services designed to meet residential, commercial, and industrial needs."
             center
           />
         </div>

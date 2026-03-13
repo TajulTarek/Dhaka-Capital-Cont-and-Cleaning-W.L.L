@@ -1,6 +1,6 @@
-# Laiba Contracting W.L.L  Next.js Website
+# Dhaka Capital Contracting and Cleaning W.L.L Next.js Website
 
-A production-ready **Next.js 16** clone of [laibacontracting-wll.com](https://laibacontracting-wll.com/), featuring:
+A production-ready **Next.js 16** website for Dhaka Capital Contracting and Cleaning W.L.L, featuring:
 
 - Full App Router with TypeScript
 - Tailwind CSS v4 (CSS-first configuration)

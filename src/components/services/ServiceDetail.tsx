@@ -2,7 +2,7 @@
 // Reusable component that renders the detailed content for any service page.
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
@@ -21,6 +21,8 @@ export default function ServiceDetail({ service }: Props) {
   const introRef  = useScrollReveal<HTMLDivElement>({ threshold: 0.15 });
   const cardsRef  = useScrollReveal<HTMLDivElement>({ threshold: 0.1 });
   const craftRef  = useScrollReveal<HTMLDivElement>({ threshold: 0.15 });
+  const [isOverviewExpanded, setIsOverviewExpanded] = useState(false);
+  const [isCommitmentExpanded, setIsCommitmentExpanded] = useState(false);
 
   return (
     <>
@@ -44,9 +46,21 @@ export default function ServiceDetail({ service }: Props) {
                 eyebrow="Overview"
                 title={`High-Quality ${service.shortTitle} Solutions for Residential & Commercial Spaces.`}
               />
-              <p className="text-slate-600 text-sm md:text-base leading-relaxed">
+              <p
+                className={[
+                  "text-slate-600 text-sm leading-relaxed md:text-base",
+                  isOverviewExpanded ? "" : "line-clamp-5 md:line-clamp-none",
+                ].join(" ")}
+              >
                 {service.heroDescription}
               </p>
+              <button
+                type="button"
+                className="mt-3 text-sm font-semibold text-brand md:hidden"
+                onClick={() => setIsOverviewExpanded((value) => !value)}
+              >
+                {isOverviewExpanded ? "See less" : "See more"}
+              </button>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 {service.subServices.slice(0, 3).map((sub) => (
@@ -58,25 +72,6 @@ export default function ServiceDetail({ service }: Props) {
                   </span>
                 ))}
               </div>
-
-              {service.photoSuggestions && service.photoSuggestions.length > 0 && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.2 }}
-                  transition={{ duration: 0.45, delay: 0.15 }}
-                  className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4"
-                >
-                  <h3 className="text-sm font-bold text-navy">Recommended Photos To Add</h3>
-                  <ul className="mt-2 space-y-1.5">
-                    {service.photoSuggestions.map((item) => (
-                      <li key={item} className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                        - {item}
-                      </li>
-                    ))}
-                  </ul>
-                </motion.div>
-              )}
             </motion.div>
 
             <motion.div
@@ -103,9 +98,6 @@ export default function ServiceDetail({ service }: Props) {
                 />
               </motion.div>
               <div className="absolute inset-0 bg-linear-to-t from-navy/45 via-transparent to-transparent" />
-              <div className="absolute bottom-3 left-3 right-3 rounded-lg bg-white/85 px-3 py-2 backdrop-blur-sm">
-                <p className="text-xs sm:text-sm font-semibold text-navy">{service.shortTitle} Project Preview</p>
-              </div>
             </motion.div>
           </div>
         </div>
@@ -129,7 +121,7 @@ export default function ServiceDetail({ service }: Props) {
 
             <div
               className="mt-4 grid grid-cols-1 gap-6 md:grid-cols-2"
-              style={{ gridTemplateColumns: "repeat(auto-fit, minmax(25rem, 1fr))" }}
+              style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 25rem), 1fr))" }}
             >
               {service.subServices.map((sub, i) => {
                 const imageSrc = isRenderableImageSrc(sub.image) ? sub.image : undefined;
@@ -142,7 +134,7 @@ export default function ServiceDetail({ service }: Props) {
                   viewport={{ once: true, amount: 0.15 }}
                   transition={{ duration: 0.45, delay: i * 0.07 }}
                   whileHover={{ y: -6 }}
-                  className="group mx-auto w-4/5 overflow-hidden rounded-md border border-slate-200 bg-white"
+                  className="group mx-auto w-full max-w-sm overflow-hidden rounded-md border border-slate-200 bg-white md:w-4/5 md:max-w-none"
                 >
                   {imageSrc ? (
                     <div className="relative w-full overflow-hidden rounded-t-md" style={{ height: "14.3rem" }}>
@@ -202,10 +194,23 @@ export default function ServiceDetail({ service }: Props) {
           </motion.div>
           <div className="mt-4 space-y-4 rounded-2xl border border-slate-100 bg-linear-to-br from-white to-slate-50 p-5 sm:p-8 shadow-sm">
             {service.craftingBody.split("\n\n").map((para, i) => (
-              <p key={i} className="text-slate-600 text-sm md:text-base leading-relaxed text-center">
+              <p
+                key={i}
+                className={[
+                  "text-center text-slate-600 text-sm leading-relaxed md:text-base",
+                  isCommitmentExpanded ? "" : "line-clamp-4 md:line-clamp-none",
+                ].join(" ")}
+              >
                 {para}
               </p>
             ))}
+            <button
+              type="button"
+              className="mx-auto block text-sm font-semibold text-brand md:hidden"
+              onClick={() => setIsCommitmentExpanded((value) => !value)}
+            >
+              {isCommitmentExpanded ? "See less" : "See more"}
+            </button>
           </div>
         </div>
       </section>

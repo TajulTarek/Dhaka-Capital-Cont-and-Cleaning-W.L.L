@@ -42,7 +42,7 @@ export default function WhereWeWork() {
           <SectionHeading
             eyebrow="Where We Work"
             title="Serving Every Project Type"
-            subtitle="Laiba Contracting provides services for residential, commercial, and industrial properties. We work in homes, offices, shops, and large facilities, delivering reliable workmanship and consistent quality wherever our clients need us."
+            subtitle="Dhaka Capital Contracting and Cleaning W.L.L provides services for residential, commercial, and industrial properties. We work in homes, offices, shops, and large facilities, delivering reliable workmanship and consistent quality wherever our clients need us."
             center
           />
         </div>

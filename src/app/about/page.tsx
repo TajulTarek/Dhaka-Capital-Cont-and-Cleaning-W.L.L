@@ -7,11 +7,11 @@ import StatsCounter from "@/components/home/StatsCounter";
 import SectionHeading from "@/components/shared/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "About Us | Laiba Contracting W.L.L",
+  title: "About Us | Dhaka Capital Contracting and Cleaning W.L.L",
   description:
-    "Learn about Laiba Contracting — our mission, vision, values, and 5+ years of delivering quality contracting and renovation services in Doha, Qatar.",
+    "Learn about Dhaka Capital Contracting and Cleaning W.L.L - our mission, vision, values, and 5+ years of delivering quality contracting and renovation services in Doha, Qatar.",
   openGraph: {
-    title: "About Us | Laiba Contracting W.L.L",
+    title: "About Us | Dhaka Capital Contracting and Cleaning W.L.L",
     description: "Quality craftsmanship and reliable service for residential, commercial, and industrial projects in Qatar.",
   },
   alternates: { canonical: "https://laibacontracting-wll.com/about" },
@@ -22,7 +22,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="ABOUT US"
-        subtitle="Laiba Contracting delivers reliable renovation, contracting, and maintenance services with a focus on quality workmanship and customer satisfaction."
+        subtitle="Dhaka Capital Contracting and Cleaning W.L.L delivers reliable renovation, contracting, and maintenance services with a focus on quality workmanship and customer satisfaction."
         breadcrumbs={[{ label: "About" }]}
         backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&auto=format&fit=crop"
       />
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Why Choose Us"
             title="Our Core Values"
-            subtitle="What sets Laiba Contracting apart — the principles we commit to on every single project."
+            subtitle="What sets Dhaka Capital Contracting and Cleaning W.L.L apart - the principles we commit to on every single project."
             center
           />
           <CoreValues />
