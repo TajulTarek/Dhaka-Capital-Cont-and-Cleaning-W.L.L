@@ -14,46 +14,52 @@ const inter = Inter({
 
 /* ── Global / default SEO metadata ───────────────────────────────────── */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://laibacontracting-wll.com"),
+  // আপনার বর্তমান লাইভ ডোমেইন
+  metadataBase: new URL("https://www.dhakacapitalcontracting-wll.app"),
   title: {
-    default: "Dhaka Capital Cont and Cleaning W.L.L | Professional Contracting Services in Doha, Qatar",
-    template: "%s | Dhaka Capital Cont and Cleaning W.L.L",
+    default:
+      "Dhaka Capital Contracting WLL | Best Construction & Renovation in Qatar",
+    template: "%s | Dhaka Capital Contracting WLL",
   },
   description:
-    "Dhaka Capital Cont and Cleaning W.L.L delivers reliable renovation, contracting, and maintenance services in Doha, Qatar. Expert carpentry, painting, tiling, gypsum, marble, masonry, MEP, and moving services.",
+    "Dhaka Capital Contracting WLL is a leading construction company in Qatar. We provide expert renovation, painting, tiling, and MEP services in Doha. কাতার ভিত্তিক কন্সট্রাকশন এবং রেনোভেশন সেবা পেতে আমাদের সাথে যোগাযোগ করুন।",
   keywords: [
-    "contracting Qatar",
-    "renovation Doha",
-    "carpentry works Qatar",
-    "painting services Doha",
-    "tiling works Qatar",
-    "MEP works Doha",
-    "gypsum ceiling Qatar",
-    "marble stone works",
-    "masonry civil works",
-    "moving shifting Qatar",
+    "Dhaka Capital Contracting",
+    "Dhaka Capital Contracting WLL",
+    "construction company in Qatar",
+    "best renovation services Doha",
+    "civil works Qatar",
+    "MEP and painting services Qatar",
+    "Dhaka Capital Doha",
   ],
+
+  // গুগল সাইট কনসোল ভেরিফিকেশন কোড
+  verification: {
+    google: "q_szOE6W8HBuLX7sA3wpaz0rDZGMRbJwVZ_pZrWbgGI",
+  },
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://laibacontracting-wll.com",
-    siteName: "Dhaka Capital Cont and Cleaning W.L.L",
-    title: "Dhaka Capital Cont and Cleaning W.L.L | Professional Contracting Services in Doha, Qatar",
+    url: "https://www.dhakacapitalcontracting-wll.app",
+    siteName: "Dhaka Capital Contracting WLL",
+    title:
+      "Dhaka Capital Contracting WLL | Professional Construction Services in Qatar",
     description:
-      "Reliable renovation, contracting, and maintenance services in Doha, Qatar. Quality craftsmanship you can trust.",
+      "Looking for reliable construction and maintenance in Doha? Dhaka Capital Contracting WLL offers top-quality civil, MEP, and renovation works.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dhaka Capital Cont and Cleaning W.L.L",
+        alt: "Dhaka Capital Contracting WLL Qatar",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dhaka Capital Cont and Cleaning W.L.L",
-    description: "Professional contracting services in Doha, Qatar.",
+    title: "Dhaka Capital Contracting WLL",
+    description: "Expert construction and renovation services in Doha, Qatar.",
     images: ["/og-image.jpg"],
   },
   icons: {
@@ -64,9 +70,16 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   alternates: {
-    canonical: "https://laibacontracting-wll.com",
+    canonical: "https://www.dhakacapitalcontracting-wll.app",
   },
 };
 

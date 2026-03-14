@@ -5,10 +5,12 @@ import ContactInfo from "@/components/contact/ContactInfo";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Dhaka Capital Contracting and Cleaning W.L.L",
+  title: "Contact Us | Dhaka Capital Contracting WLL - Get a Quote in Qatar",
   description:
-    "Get in touch with Dhaka Capital Contracting and Cleaning W.L.L in Doha, Qatar. Call, WhatsApp, or use the contact form for quotes, project enquiries, and support.",
-  alternates: { canonical: "https://laibacontracting-wll.com/contact" },
+    "Get in touch with Dhaka Capital Contracting WLL in Doha, Qatar. Call, WhatsApp, or use the contact form for project inquiries and quotes.",
+  alternates: {
+    canonical: "https://www.dhakacapitalcontracting-wll.app/contact",
+  },
 };
 
 export default function ContactPage() {
@@ -34,15 +36,14 @@ export default function ContactPage() {
           {/* Map embed placeholder */}
           <div className="mt-12 rounded-2xl overflow-hidden shadow-md border border-slate-200">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.0835764098737!2d51.5289!3d25.2854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE3JzA3LjQiTiA1McKwMzEnNDQuMCJF!5e0!3m2!1sen!2sqt!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115431.11709440628!2d51.4429944030616!3d25.296614488279447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4d1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sbd!4v1715456789012!5m2!1sen!2sbd"
               width="100%"
-              height="380"
+              height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Dhaka Capital Contracting and Cleaning W.L.L location - Industrial area Doha, Qatar"
-            />
+            ></iframe>
           </div>
         </div>
       </section>

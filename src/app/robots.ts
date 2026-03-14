@@ -5,8 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/"],
+      disallow: ["/api/"], // এটি সিকিউরিটির জন্য এপিআই রুটগুলোকে হাইড রাখে
     },
-    sitemap: "https://laibacontracting-wll.com/sitemap.xml",
+    sitemap: "https://www.dhakacapitalcontracting-wll.app/sitemap.xml",
   };
 }

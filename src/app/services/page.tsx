@@ -5,10 +5,16 @@ import ServiceCard from "@/components/shared/ServiceCard";
 import { SERVICES } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "Our Services | Dhaka Capital Contracting and Cleaning W.L.L",
+  // কিউওয়ার্ড সমৃদ্ধ টাইটেল
+  title:
+    "Our Services | Dhaka Capital Contracting WLL - Construction & Maintenance",
   description:
-    "Explore the full range of contracting, renovation, and maintenance services offered by Dhaka Capital Contracting and Cleaning W.L.L in Doha, Qatar - including carpentry, painting, tiling, MEP, and more.",
-  alternates: { canonical: "https://laibacontracting-wll.com/services" },
+    "Explore our professional services at Dhaka Capital Contracting WLL. We offer carpentry, painting, tiling, MEP, and renovation services in Doha, Qatar.",
+
+  // আপনার বর্তমান লাইভ ইউআরএল অনুযায়ী ক্যানোনিকাল লিঙ্ক
+  alternates: {
+    canonical: "https://www.dhakacapitalcontracting-wll.app/services",
+  },
 };
 
 export default function ServicesPage() {
@@ -16,7 +22,7 @@ export default function ServicesPage() {
     <>
       <PageHero
         title="OUR SERVICES"
-        subtitle="A complete range of contracting, renovation, and maintenance services for residential, commercial, and industrial projects."
+        subtitle="A complete range of contracting, renovation, and maintenance services for residential, commercial, and industrial projects in Qatar."
         breadcrumbs={[{ label: "Services" }]}
         backgroundImage="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&auto=format&fit=crop"
       />

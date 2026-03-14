@@ -1,4 +1,4 @@
-//  Home Page 
+//  Home Page
 import type { Metadata } from "next";
 import Hero from "@/components/home/Hero";
 import PrimaryServices from "@/components/home/PrimaryServices";
@@ -10,10 +10,16 @@ import FAQ from "@/components/home/FAQ";
 import Gallery from "@/components/home/Gallery";
 
 export const metadata: Metadata = {
-  title: "Dhaka Capital Cont and Cleaning W.L.L | Quality Craftsmanship You Can Trust",
+  // কিউওয়ার্ড সমৃদ্ধ টাইটেল যা র‍্যাঙ্কিংয়ে সাহায্য করবে
+  title:
+    "Dhaka Capital Contracting WLL | Top Construction & Cleaning Services in Qatar",
   description:
-    "Dhaka Capital Cont and Cleaning W.L.L delivers dependable workmanship for residential, commercial, and industrial projects in Doha, Qatar. From small repairs to full builds  we get it done right.",
-  alternates: { canonical: "https://laibacontracting-wll.com" },
+    "Dhaka Capital Contracting WLL delivers high-quality construction, renovation, and cleaning services in Doha, Qatar. We specialize in residential and commercial projects with expert craftsmanship.",
+
+  // আপনার বর্তমান লাইভ ইউআরএল অনুযায়ী ক্যানোনিকাল লিঙ্ক
+  alternates: {
+    canonical: "https://www.dhakacapitalcontracting-wll.app",
+  },
 };
 
 export default function HomePage() {

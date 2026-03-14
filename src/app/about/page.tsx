@@ -1,20 +1,27 @@
 // ── About Page ───────────────────────────────────────────────────────────────
 import type { Metadata } from "next";
-import PageHero from "@/components/shared/PageHero";
-import CoreValues from "@/components/about/CoreValues";
-import MissionVision from "@/components/about/MissionVision";
-import StatsCounter from "@/components/home/StatsCounter";
-import SectionHeading from "@/components/shared/SectionHeading";
+import PageHero from "@ /components/shared/PageHero";
+import CoreValues from "@ /components/about/CoreValues";
+import MissionVision from "@ /components/about/MissionVision";
+import StatsCounter from "@ /components/home/StatsCounter";
+import SectionHeading from "@ /components/shared/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "About Us | Dhaka Capital Contracting and Cleaning W.L.L",
+  // কিউওয়ার্ড সমৃদ্ধ টাইটেল
+  title:
+    "About Us | Dhaka Capital Contracting WLL - Construction Experts in Qatar",
   description:
-    "Learn about Dhaka Capital Contracting and Cleaning W.L.L - our mission, vision, values, and 5+ years of delivering quality contracting and renovation services in Doha, Qatar.",
+    "Learn about Dhaka Capital Contracting WLL. With over 5+ years of experience, we provide top-tier construction, renovation, and maintenance services in Doha, Qatar.",
   openGraph: {
-    title: "About Us | Dhaka Capital Contracting and Cleaning W.L.L",
-    description: "Quality craftsmanship and reliable service for residential, commercial, and industrial projects in Qatar.",
+    title: "About Us | Dhaka Capital Contracting WLL",
+    description:
+      "Quality craftsmanship and reliable construction services for residential and commercial projects in Qatar.",
+    url: "https://www.dhakacapitalcontracting-wll.app/about",
   },
-  alternates: { canonical: "https://laibacontracting-wll.com/about" },
+  // সঠিক লাইভ ইউআরএল সেট করা হয়েছে
+  alternates: {
+    canonical: "https://www.dhakacapitalcontracting-wll.app/about",
+  },
 };
 
 export default function AboutPage() {
@@ -22,7 +29,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="ABOUT US"
-        subtitle="Dhaka Capital Contracting and Cleaning W.L.L delivers reliable renovation, contracting, and maintenance services with a focus on quality workmanship and customer satisfaction."
+        subtitle="Dhaka Capital Contracting WLL delivers reliable renovation, contracting, and maintenance services with a focus on quality workmanship and customer satisfaction."
         breadcrumbs={[{ label: "About" }]}
         backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&auto=format&fit=crop"
       />
@@ -33,7 +40,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Why Choose Us"
             title="Our Core Values"
-            subtitle="What sets Dhaka Capital Contracting and Cleaning W.L.L apart - the principles we commit to on every single project."
+            subtitle="What sets Dhaka Capital Contracting WLL apart - the principles we commit to on every single project."
             center
           />
           <CoreValues />
@@ -44,7 +51,10 @@ export default function AboutPage() {
       <StatsCounter />
 
       {/* ── Mission & Vision ── */}
-      <section className="section-padding" style={{ backgroundColor: "#f8f7f5" }}>
+      <section
+        className="section-padding"
+        style={{ backgroundColor: "#f8f7f5" }}
+      >
         <div className="container-custom">
           <SectionHeading
             eyebrow="Our Direction"
