@@ -1,10 +1,10 @@
 // ── About Page ───────────────────────────────────────────────────────────────
 import type { Metadata } from "next";
-import PageHero from "@ /components/shared/PageHero";
-import CoreValues from "@ /components/about/CoreValues";
-import MissionVision from "@ /components/about/MissionVision";
-import StatsCounter from "@ /components/home/StatsCounter";
-import SectionHeading from "@ /components/shared/SectionHeading";
+import PageHero from "@/components/shared/PageHero";
+import CoreValues from "@/components/about/CoreValues";
+import MissionVision from "@/components/about/MissionVision";
+import StatsCounter from "@/components/home/StatsCounter";
+import SectionHeading from "@/components/shared/SectionHeading";
 
 export const metadata: Metadata = {
   // কিউওয়ার্ড সমৃদ্ধ টাইটেল
