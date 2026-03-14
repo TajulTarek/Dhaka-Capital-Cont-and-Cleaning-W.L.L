@@ -10,6 +10,11 @@ import {
   Truck,
   Paintbrush,
   Grid3X3,
+  HardHat,
+  Users,
+  Wrench,
+  Sparkles,
+  Wind,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -23,6 +28,11 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Truck,
   Paintbrush,
   Grid3X3,
+  HardHat,
+  Users,
+  Wrench,
+  Sparkles,
+  Wind,
 };
 
 interface Props {
@@ -56,7 +66,7 @@ export default function ServiceCard({
           alt={title}
           className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b1120]/85 via-[#0b1120]/30 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-navy/85 via-navy/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-5 text-white">
           <h3 className="font-bold text-lg leading-tight">{title}</h3>
           <p className="text-sm text-slate-300 mt-1 line-clamp-2">{tagline}</p>
@@ -86,7 +96,7 @@ export default function ServiceCard({
           className="transition-transform duration-300 group-hover:scale-110"
         />
       </div>
-      <h3 className="font-bold text-[#0b1120] text-base leading-snug mb-2">
+      <h3 className="font-bold text-navy text-base leading-snug mb-2">
         {title}
       </h3>
       <p className="text-slate-500 text-sm line-clamp-3">{tagline}</p>

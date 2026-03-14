@@ -137,7 +137,7 @@ export default function ServiceDetail({ service }: Props) {
                   className="group mx-auto w-full max-w-sm overflow-hidden rounded-md border border-slate-200 bg-white md:w-4/5 md:max-w-none"
                 >
                   {imageSrc ? (
-                    <div className="relative w-full overflow-hidden rounded-t-md" style={{ height: "14.3rem" }}>
+                    <div className="relative w-full overflow-hidden rounded-t-md" style={{ height: "15.73rem" }}>
                       <Image
                         src={imageSrc}
                         alt={sub.title}
@@ -148,14 +148,11 @@ export default function ServiceDetail({ service }: Props) {
                       <div className="absolute inset-0 bg-linear-to-tr from-brand/10 via-transparent to-blue-300/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                     </div>
                   ) : (
-                    <div className="w-full rounded-t-md bg-linear-to-br from-slate-100 to-slate-200" style={{ height: "14.3rem" }} />
+                    <div className="w-full rounded-t-md bg-linear-to-br from-slate-100 to-slate-200" style={{ height: "15.73rem" }} />
                   )}
 
                   <div className="border-t border-slate-100 bg-linear-to-b from-white to-slate-50/70 px-5 pb-4 pt-3">
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-brand/80">
-                      Featured Service
-                    </span>
-                    <h3 className="mt-1 text-lg font-bold leading-snug text-navy">
+                    <h3 className="text-lg font-bold leading-snug text-navy">
                       {sub.title}
                     </h3>
                     <p className="mt-1.5 line-clamp-2 text-xs leading-relaxed text-slate-600">
