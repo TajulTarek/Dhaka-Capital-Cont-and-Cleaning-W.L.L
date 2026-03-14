@@ -15,7 +15,7 @@ const TYPING_SERVICES = [
   "Renovation",
 ];
 
-const QUICK_SERVICES = ["Carpentry", "Civil Works", "Painting", "MEP", "Tiling", "Marble"];
+const QUICK_SERVICES = ["Carpentry", "Hajor", "Painting", "Cleaning Services", "Tiling", "Marble"];
 
 const TRUST_POINTS = [
   "10+ Years Experience",

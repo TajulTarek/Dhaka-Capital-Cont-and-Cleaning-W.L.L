@@ -484,7 +484,7 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality building construction services for residential and commercial projects across Doha, Qatar. Our skilled team handles everything from foundations and structural work to full exterior and interior finishing. We manage the complete construction process with precise planning, quality materials, and professional workmanship. Whether it's a villa, apartment, commercial building, or industrial facility, every project is delivered on time with the highest standards of safety, quality, and craftsmanship.",
     heroImage:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop&q=80",
+      "/services/building-construction/building-construction.jpeg",
     mainImage:
       "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
     photoSuggestions: [
@@ -656,7 +656,7 @@ export const SERVICES: ServiceData[] = [
     heroDescription:
       "Dhaka Capital provides high-quality professional cleaning services for residential and commercial properties across Doha, Qatar. Our experienced and trained cleaning teams handle everything from regular home cleaning and deep cleaning to office maintenance, post-construction clean-up, and villa sanitisation. We use environmentally safe cleaning products, professional-grade equipment, and proven hygiene protocols to deliver spotless results every time. From routine cleaning contracts to one-time specialist cleans, every job is completed with attention to detail, reliability, and a commitment to the highest cleaning standards.",
     heroImage:
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&auto=format&fit=crop&q=80",
+      "/services/cleaning-services/cleaning-services.jpeg",
     mainImage:
       "/services/cleaning-services/cleaning-services.jpg",
     photoSuggestions: [
@@ -713,9 +713,9 @@ export const SERVICES: ServiceData[] = [
     shortTitle: "A/C & Fridge Repair",
     tagline: "Fast, expert, and reliable A/C and refrigerator repair and maintenance services for all brands and models.",
     heroDescription:
-      "ac-refrigerator-repairing.png",
+      "Professional A/C and refrigerator repair services in Doha, Qatar. Fast, expert, and reliable repair and maintenance for all brands and models.",
     heroImage:
-      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1200&auto=format&fit=crop&q=80",
+      "/services/ac-refrigerator-repairing/ac-refrigerator-repairing.png",
     mainImage:
       "/services/ac-refrigerator-repairing/ac-refrigerator-repairing-main.jpg",
     photoSuggestions: [
