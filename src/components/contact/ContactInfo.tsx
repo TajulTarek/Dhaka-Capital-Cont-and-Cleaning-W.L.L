@@ -13,7 +13,7 @@ const INFO_ITEMS = [
   {
     icon: Phone,
     title: "CALL",
-    lines: ["Muhammad Shamim Ahmed", "+974 55 740 434"],
+    lines: ["Muhammad Shamim Ahmed", "+974 55 740 434", "+974 66 895 375"],
     href: "tel:+97455740434",
     linkLabel: "Call now",
   },

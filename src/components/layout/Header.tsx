@@ -69,6 +69,13 @@ export default function Header() {
                 +974 55 740 434
               </a>
               <a
+                href="tel:+97466895375"
+                className="flex items-center gap-1 hover:opacity-80 transition-opacity"
+              >
+                <Phone size={11} />
+                +974 66 895 375
+              </a>
+              <a
                 href="https://wa.me/97455740434"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -158,7 +165,7 @@ export default function Header() {
           {/* CTA + Hamburger */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+97460024123"
+              href="tel:+97466895375"
               className="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-md text-sm font-semibold text-white transition-all hover:opacity-90"
               style={{ backgroundColor: "#39b2be" }}
             >

@@ -208,6 +208,22 @@ export default function Hero() {
                   Call Us +974 55 740 434
                 </a>
               </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.35, delay: 0.66 }}
+                whileTap={{ scale: 0.98 }}
+                className="w-full sm:w-auto"
+              >
+                <a
+                  href="tel:+97466895375"
+                  className="inline-flex w-full sm:w-auto justify-center items-center gap-2 rounded-lg border border-slate-200 bg-white px-5 sm:px-6 py-3 text-xs sm:text-sm font-bold text-slate-700 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand/30 hover:bg-brand/10"
+                >
+                  <Phone size={16} className="text-brand" />
+                  Call Us +974 66 895 375
+                </a>
+              </motion.div>
             </div>
           </motion.div>
         </div>

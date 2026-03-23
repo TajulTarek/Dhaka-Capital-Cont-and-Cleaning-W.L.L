@@ -57,7 +57,7 @@ export default function ServiceCTA({
             className="inline-flex w-full sm:w-auto justify-center items-center gap-2 px-7 py-3 rounded-lg font-bold text-white border-2 border-white/70 hover:border-white hover:bg-white/10 transition-all duration-300 text-sm hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(11,17,32,0.28)]"
           >
             <Phone size={15} />
-            +974 55 740 434
+            +974 55 740 434 / +974 66 895 375
           </a>
         </div>
       </div>

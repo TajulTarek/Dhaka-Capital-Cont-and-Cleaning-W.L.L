@@ -153,6 +153,15 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-3">
+                <Phone size={16} className="flex-shrink-0" style={{ color: "#39b2be" }} />
+                <a
+                  href="tel:+97466895375"
+                  className="text-sm text-slate-400 hover:text-[#39b2be] transition-colors"
+                >
+                  +974 66 895 375
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
                 <MessageSquare size={16} className="flex-shrink-0" style={{ color: "#39b2be" }} />
                 <a
                   href="https://wa.me/97455740434"

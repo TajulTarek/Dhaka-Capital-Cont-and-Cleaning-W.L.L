@@ -95,6 +95,14 @@ export default function MobileMenu({ open, onClose }: Props) {
             Call: +974 55 740 434
           </a>
           <a
+            href="tel:+97466895375"
+            className="flex items-center gap-3 py-3 px-4 rounded-xl font-semibold text-white text-sm"
+            style={{ backgroundColor: "#2a9aa5" }}
+          >
+            <Phone size={16} />
+            Call: +974 66 895 375
+          </a>
+          <a
             href="https://wa.me/97455740434"
             target="_blank"
             rel="noopener noreferrer"
